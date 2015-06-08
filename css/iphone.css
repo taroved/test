@@ -1,0 +1,36 @@
+body {
+    //background-image: url("../img/iphone.png")
+}
+#wrap {
+    margin: 0 auto -138px;
+}
+#push,
+#footer {
+    height: 138px;
+}
+
+.content {
+  margin: 0 8px;
+  text-align: left;
+}
+.header {
+  height: 56px;
+  background: #0062b1 url("../img/logo.png") no-repeat center;
+}
+.header .btn-back {
+  text-decoration: none;
+  display: inline-block;
+  background: url("../img/btn-blue.png") no-repeat center;
+  height: 28px;
+  width: 59px;
+  margin-top: 15px;
+  margin-left: 2px;
+  color: white;
+  -webkit-filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
+  filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
+}
+.header .btn-back  span{
+  padding-left: 17px;
+  line-height: 26px;
+  font-size: 13px;
+}

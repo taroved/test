@@ -1,0 +1,7 @@
+#wrap {
+    margin: 0 auto -110px;
+}
+#push,
+#footer {
+    height: 110px;
+}

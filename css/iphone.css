@@ -13,9 +13,12 @@ body {
   margin: 0 8px;
   text-align: left;
 }
+
 .header {
   height: 56px;
   background: #0062b1 url("../img/logo.png") no-repeat center;
+  border-top: 1px solid #49aeff;
+  border-bottom: 1px solid #2c90e0;
 }
 .header .btn-back {
   text-decoration: none;
@@ -30,7 +33,14 @@ body {
   filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
 }
 .header .btn-back  span{
-  padding-left: 17px;
-  line-height: 26px;
+  padding-left: 19px;
+  line-height: 28px;
   font-size: 13px;
+}
+
+.transparent-line {
+  height: 12px;
+  background: #3d250f;
+  opacity: 0.09;
+  border-top: 1px solid #00467e;
 }

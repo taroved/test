@@ -1,19 +1,9 @@
-body {
-    //background-image: url("../img/iphone.png")
-}
-#wrap {
-    margin: 0 auto -138px;
-}
-#push,
-#footer {
-    height: 138px;
-}
-
 .content {
   margin: 0 8px;
   text-align: left;
 }
 
+/* header */
 .header {
   height: 56px;
   background: #0062b1 url("../img/logo.png") no-repeat center;
@@ -39,8 +29,108 @@ body {
 }
 
 .transparent-line {
-  height: 12px;
+  height: 6px;
   background: #3d250f;
   opacity: 0.09;
+}
+.transparent-line.top {
   border-top: 1px solid #00467e;
 }
+/* end header */
+
+/* middler */
+.middler {
+  padding-top: 63px;
+  padding-bottom: 83px;
+}
+.middler .game-box {
+  height: 106px;
+  border-radius: 5px;
+  margin-top: 13px;
+  padding: 5px 20px 5px 5px;
+}
+.middler .game-box .chip {
+  width: 119px;
+  text-align: center;
+}
+.middler .game-box .chip  img{
+  padding-top: 5px;
+}
+.middler .game-box h3 {
+  font-size: 15px;
+  line-height: 38px;
+}
+.middler .game-box p {
+  font-size: 10px;
+}
+/* end middler */
+
+/* footer */
+.footer {
+  height: 68px;
+}
+.transparent-line.bottom {
+  border-top: 1px solid #00467e;
+}
+.footer ul li {
+  width: 66px;
+  height: 68px;
+}
+.footer ul li a {
+  padding: 50px 0 7px 0;
+  font-size: 9px;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.footer ul li.news {
+  background: #0577d3 url("../img/i-news.png") no-repeat center 8px;
+}
+.footer ul li.support {
+  background: #0470c9 url("../img/i-support.png") no-repeat center 8px;
+}
+.footer ul li.letter {
+  background: #036cc2 url("../img/i-letter.png") no-repeat center 8px;
+}
+.footer .social {
+  display: inline-block;
+  height: 68px;
+}
+.footer .social a.fb{
+  width: 36px;
+  height: 40px;
+  display: block;
+  float: left;
+  background: url("../img/i-fb.png") no-repeat center;
+  margin: 8px 7px 2px 15px;
+}
+.footer .social div.dlr{
+  width: 0;
+  height: 30px;
+  border-left: 1px solid #02549f;
+  border-right: 1px solid #187aca;
+  float: left;
+  margin-top: 13px;
+}
+.footer .social a.tw{
+  width: 36px;
+  height: 40px;
+  display: block;
+  float: left;
+  background: url("../img/i-tw.png") no-repeat center;
+  margin: 7px 0 0 9px;
+}
+
+.footer .social span.copy {
+  display: block;
+  font-size: 5px;
+  color: #6ebdfd;
+  width: 122px;
+  text-align: center;
+  line-height: 5px;
+  display: block;
+  float: left;
+  margin-top: 2px;
+}
+/* end footer */

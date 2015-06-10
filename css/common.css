@@ -1,5 +1,3 @@
-/* Sticky footer styles
--------------------------------------------------- */
 * {
     margin: 0;
 }
@@ -7,32 +5,52 @@
 html,
 body {
     height: 100%;
-    /* The html and body elements cannot have any padding or margin. */
     font-family: Tahoma, Verdana, Segoe, sans-serif;
-}
-
-/* Wrapper for page content to push down footer */
-#wrap {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    /* Negative indent footer by it's height */
-    margin: 0 auto -50px;
-}
-
-/* Set the fixed height of the footer here */
-#push,
-#footer {
-    height: 50px;
-}
-#footer p {
-    font-size: 21px;
-    font-weight: 200;
-    line-height: 50px;
-    margin: 0;
+    background: #f1ebde;
 }
 
 .fixed {
   position: fixed;
   width: 100%;
 }
+
+.middler {
+}
+
+.middler .game-box {
+  background: white;
+}
+.middler .game-box .chip {
+  float: left;
+}
+.middler .game-box .chip img {
+}
+.middler .game-box h3 {
+  text-transform: uppercase;
+  color: #814a02;
+}
+.middler .game-box p {
+  color: #353434;
+}
+
+/* footer */
+.fixed-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.footer {
+  background: #0068bc;
+  border-top: 1px solid #4fb1ff;;
+}
+.footer ul {
+  display: block;
+  float: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer ul li {
+  display: inline-block;
+}
+/* end footer */
+

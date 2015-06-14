@@ -14,14 +14,38 @@ body {
   width: 100%;
 }
 
+/* header */
+.header {
+  border-top: 1px solid #49aeff;
+  border-bottom: 1px solid #2c90e0;
+}
+.header .btn-back {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  -webkit-filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
+  filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
+}
+.transparent-line {
+  background: #3d250f;
+  opacity: 0.09;
+}
+.transparent-line.top {
+  border-top: 1px solid #00467e;
+}
+/* end header */
+
+/* middler */
 .middler {
 }
 
 .middler .game-box {
   background: white;
+  position: relative;
 }
 .middler .game-box .chip {
   float: left;
+  text-align: center;
 }
 .middler .game-box .chip img {
 }
@@ -32,6 +56,10 @@ body {
 .middler .game-box p {
   color: #353434;
 }
+.middler .game-box .ribbon-new{
+  position: absolute;
+}
+/* end middler */
 
 /* footer */
 .fixed-footer {
@@ -43,6 +71,9 @@ body {
   background: #0068bc;
   border-top: 1px solid #4fb1ff;;
 }
+.transparent-line.bottom {
+  border-top: 1px solid #00467e;
+}
 .footer ul {
   display: block;
   float: left;
@@ -51,6 +82,12 @@ body {
 }
 .footer ul li {
   display: inline-block;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
 }
 /* end footer */
 

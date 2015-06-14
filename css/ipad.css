@@ -1,1 +1,258 @@
+.content {
+  margin: 0 25px;
+  text-align: left;
+}
 
+/* header */
+.header {
+  height: 113px;
+  background: #0062b1 url("../img/ipad/logo.png") no-repeat center;
+}
+.header .btn-back {
+  background: url("../img/ipad/btn-blue.png") no-repeat center;
+  width: 100px;
+  height: 43px;
+  margin-top: 31px;
+  margin-left: 4px;
+}
+.header .btn-back  span{
+  padding-left: 35px;
+  line-height: 41px;
+  font-size: 22px;
+}
+.header ul {
+  padding-top: 14px;
+}
+.header ul li {
+  width: 66px;
+}
+.header ul li a {
+  padding: 63px 0 7px 0;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+.header ul li.games {
+  background: url("../img/ipad/i-games.png") no-repeat center 8px;
+}
+.header ul li.news {
+  background: url("../img/ipad/i-news.png") no-repeat center 8px;
+}
+.header ul li.support {
+  background: url("../img/ipad/i-support.png") no-repeat center 8px;
+}
+.header ul li.letter {
+  background: url("../img/ipad/i-letter.png") no-repeat center 8px;
+}
+
+.transparent-line {
+  height: 9px;
+}
+/* end header */
+
+/* middler */
+.middler {
+  padding-top: 139px;
+  padding-bottom: 83px;
+  font-size: 0;
+}
+.middler .game-box {
+  height: 186px;
+  width: 453px;
+  border-radius: 4px;
+  margin: 0 0 19px 25px;
+  padding: 4px 18px 4px 4px;
+  display: inline-block;
+}
+.middler .game-box .chip {
+  width: 187px;
+}
+.middler .game-box .chip  .img{
+  margin-top: 15px;
+  width: 100%;
+  height: 135px;
+}
+.middler .game-box .chip  .img-1{
+  background: url("../img/ipad/chips/1.png") no-repeat center;
+}
+.middler .game-box .chip  .img-2{
+  background: url("../img/ipad/chips/2.png") no-repeat center;
+}
+.middler .game-box .chip  .img-3{
+  background: url("../img/ipad/chips/3.png") no-repeat center;
+  margin-top: 0.75em
+}
+.middler .game-box .chip  .img-4{
+  background: url("../img/ipad/chips/4.png") no-repeat center;
+}
+.middler .game-box h3 {
+  font-size: 24px;
+  line-height: 68px;
+}
+.middler .game-box p {
+  font-size: 18px;
+}
+@media (orientation : landscape)
+    and (min-width: 568px) {
+}
+.middler .game-box .ribbon-new {
+  background: url("../img/ipad/ribbon-new.png") no-repeat center;
+  width: 57px;
+  height: 58px;
+  top: -3px;
+  right: -3px;
+
+}
+/* end middler */
+
+/* footer */
+@media (orientation : portrait) {
+  .footer {
+    height: 68px;
+  }
+  .footer ul li {
+    width: 66px;
+    height: 68px;
+  }
+  .footer ul li a {
+    padding: 50px 0 7px 0;
+    font-size: 9px;
+    display: block;
+    text-align: center;
+  }
+  .footer ul li.news {
+    background: #0577d3 url("../img/i-news.png") no-repeat center 8px;
+  }
+  .footer ul li.support {
+    background: #0470c9 url("../img/i-support.png") no-repeat center 8px;
+  }
+  .footer ul li.letter {
+    background: #036cc2 url("../img/i-letter.png") no-repeat center 8px;
+  }
+  .footer .social {
+    display: block;
+    height: 68px;
+  }
+  .footer .social a.fb{
+    width: 36px;
+    height: 40px;
+    display: block;
+    float: left;
+    background: url("../img/i-fb.png") no-repeat center;
+    margin: 8px 7px 2px 15px;
+  }
+  .footer .social div.dlr{
+    width: 0;
+    height: 30px;
+    border-left: 1px solid #02549f;
+    border-right: 1px solid #187aca;
+    float: left;
+    margin-top: 13px;
+  }
+  .footer .social a.tw{
+    width: 36px;
+    height: 40px;
+    display: block;
+    float: left;
+    background: url("../img/i-tw.png") no-repeat center;
+    margin: 7px 0 0 9px;
+  }
+
+  .footer .social span.copy {
+    display: block;
+    font-size: 5px;
+    color: #6ebdfd;
+    width: 73px;
+    padding: 0 22px;
+    text-align: center;
+    line-height: 5px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+  }
+}
+@media (orientation : landscape) {
+  .footer {
+    height: 59px;
+  }
+  .footer ul li {
+    height: 59px;
+  }
+  .footer ul li a {
+    padding: 0 12px 0 49px;
+    font-size: 12px;
+    line-height: 59px;
+    display: block;
+  }
+  .footer ul li.news {
+    background: #0577d3 url("../img/i-news.png") no-repeat 18px center;
+  }
+  .footer ul li.news a {
+    padding: 0 12px 0 64px;
+  }
+  .footer ul li.support {
+    background: #0470c9 url("../img/i-support.png") no-repeat 12px center;
+  }
+  .footer ul li.support a {
+    padding: 0 12px 0 55px;
+  }
+  .footer ul li.letter {
+    background: #036cc2 url("../img/i-letter.png") no-repeat 12px center;
+  }
+  .footer ul li.letter a {
+    padding: 0 12px 0 58px;
+  }
+  .footer .social {
+    display: block;
+  }
+  .footer .social a.fb{
+    width: 36px;
+    height: 40px;
+    display: block;
+    float: left;
+    background: url("../img/i-fb.png") no-repeat center;
+    margin: 9px 7px 2px 15px;
+  }
+  .footer .social div.dlr{
+    width: 0;
+    height: 30px;
+    border-left: 1px solid #02549f;
+    border-right: 1px solid #187aca;
+    float: left;
+    margin-top: 14px;
+  }
+  .footer .social a.tw{
+    width: 36px;
+    height: 40px;
+    display: block;
+    float: left;
+    background: url("../img/i-tw.png") no-repeat center;
+    margin: 9px 0 0 9px;
+  }
+
+  .footer .social span.copy {
+    display: block;
+    font-size: 5px;
+    color: #6ebdfd;
+    width: 43px;
+    text-align: left;
+    line-height: 5px;
+    display: block;
+    float: left;
+    padding: 22px 0 0 11px;
+  }
+}
+
+@media (orientation : landscape)
+    and (min-width: 492px) {
+
+@media (orientation : landscape)
+    and (min-width: 492px) {
+  .footer .social {
+    float: right;
+  }
+  .footer .social span.copy {
+    padding: 22px 15px 0 11px;
+  }
+}
+/* end footer */

@@ -20,6 +20,9 @@
   line-height: 28px;
   font-size: 13px;
 }
+.header ul {
+  display: none;
+}
 
 .transparent-line {
   height: 6px;
@@ -38,12 +41,29 @@
   margin: 13px 6px 0 6px;
   padding: 5px 20px 5px 5px;
 }
+
 .middler .game-box .chip {
   width: 119px;
 }
-.middler .game-box .chip  img{
-  padding-top: 5px;
+.middler .game-box .chip .img{
+  margin-top: 5px;
+  width: 100%;
+  height: 95px;
 }
+.middler .game-box .chip .img-1{
+  background: url("../img/chips/1.png") no-repeat center;
+}
+.middler .game-box .chip .img-2{
+  background: url("../img/chips/2.png") no-repeat center;
+}
+.middler .game-box .chip .img-3{
+  background: url("../img/chips/3.png") no-repeat center;
+  margin-top: 0;
+}
+.middler .game-box .chip .img-4{
+  background: url("../img/chips/4.png") no-repeat center;
+}
+
 .middler .game-box h3 {
   font-size: 15px;
   line-height: 38px;
@@ -67,9 +87,8 @@
   .middler .game-box .chip {
     width: 105px;
   }
-  .middler .game-box .chip  img{
-    padding-top: 4px;
-    width: 80%;
+  .middler .game-box .chip .img{
+    margin-top: 0;
   }
   .middler .game-box h3 {
     font-size: 13px;
@@ -226,9 +245,6 @@
     padding: 22px 0 0 11px;
   }
 }
-
-@media (orientation : landscape)
-    and (min-width: 492px) {
 
 @media (orientation : landscape)
     and (min-width: 492px) {

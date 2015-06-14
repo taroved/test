@@ -27,6 +27,19 @@ body {
   -webkit-filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
   filter: drop-shadow(0 2px 0 rgba(0,0,0,0.14));
 }
+.header ul {
+  display: block;
+  float: right;
+  list-style-type: none;
+  padding-left: 0;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
 .transparent-line {
   background: #3d250f;
   opacity: 0.09;
@@ -47,8 +60,6 @@ body {
 .middler .game-box .chip {
   float: left;
   text-align: center;
-}
-.middler .game-box .chip img {
 }
 .middler .game-box h3 {
   text-transform: uppercase;

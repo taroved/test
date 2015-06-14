@@ -12,6 +12,7 @@ body {
 .fixed {
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 
 /* header */
@@ -86,8 +87,6 @@ body {
 .footer ul li a {
   color: white;
   text-decoration: none;
-  display: block;
-  text-align: center;
 }
 /* end footer */
 

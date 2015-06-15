@@ -7,6 +7,9 @@
 .header {
   height: 56px;
   background: #0062b1 url("../img/logo.png") no-repeat center;
+  background-image: url("../img/ipad/logo.png"), -webkit-gradient(linear, left top, left bottom, from(#0070ca), to(#0060ad)); /* Saf4+, Chrome */
+  background-image: url("../img/ipad/logo.png"), -webkit-linear-gradient(top, #0070ca, #0060ad); /* Chrome 10+, Saf5.1+ */
+  background-image: url("../img/ipad/logo.png"),         linear-gradient(to bottom, #0070ca, #0060ad); /* W3C */  
 }
 .header .btn-back {
   background: url("../img/btn-blue.png") no-repeat center;

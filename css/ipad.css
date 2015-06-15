@@ -7,6 +7,9 @@
 .header {
   height: 113px;
   background: #0062b1 url("../img/ipad/logo.png") no-repeat center;
+  background-image: url("../img/ipad/logo.png"), -webkit-gradient(linear, left top, left bottom, from(#0070ca), to(#0060ad)); /* Saf4+, Chrome */
+  background-image: url("../img/ipad/logo.png"), -webkit-linear-gradient(top, #0070ca, #0060ad); /* Chrome 10+, Saf5.1+ */
+  background-image: url("../img/ipad/logo.png"),         linear-gradient(to bottom, #0070ca, #0060ad); /* W3C */  
 }
 .header .btn-back {
   background: url("../img/ipad/btn-blue.png") no-repeat center;
@@ -106,153 +109,42 @@
 /* end middler */
 
 /* footer */
-@media (orientation : portrait) {
-  .footer {
-    height: 68px;
-  }
-  .footer ul li {
-    width: 66px;
-    height: 68px;
-  }
-  .footer ul li a {
-    padding: 50px 0 7px 0;
-    font-size: 9px;
-    display: block;
-    text-align: center;
-  }
-  .footer ul li.news {
-    background: #0577d3 url("../img/i-news.png") no-repeat center 8px;
-  }
-  .footer ul li.support {
-    background: #0470c9 url("../img/i-support.png") no-repeat center 8px;
-  }
-  .footer ul li.letter {
-    background: #036cc2 url("../img/i-letter.png") no-repeat center 8px;
-  }
-  .footer .social {
-    display: block;
-    height: 68px;
-  }
-  .footer .social a.fb{
-    width: 36px;
-    height: 40px;
-    display: block;
-    float: left;
-    background: url("../img/i-fb.png") no-repeat center;
-    margin: 8px 7px 2px 15px;
-  }
-  .footer .social div.dlr{
-    width: 0;
-    height: 30px;
-    border-left: 1px solid #02549f;
-    border-right: 1px solid #187aca;
-    float: left;
-    margin-top: 13px;
-  }
-  .footer .social a.tw{
-    width: 36px;
-    height: 40px;
-    display: block;
-    float: left;
-    background: url("../img/i-tw.png") no-repeat center;
-    margin: 7px 0 0 9px;
-  }
-
-  .footer .social span.copy {
-    display: block;
-    font-size: 5px;
-    color: #6ebdfd;
-    width: 73px;
-    padding: 0 22px;
-    text-align: center;
-    line-height: 5px;
-    display: block;
-    float: left;
-    margin-top: 2px;
-  }
+.footer {
+  height: 54px;
+  text-align: center;
 }
-@media (orientation : landscape) {
-  .footer {
-    height: 59px;
-  }
-  .footer ul li {
-    height: 59px;
-  }
-  .footer ul li a {
-    padding: 0 12px 0 49px;
-    font-size: 12px;
-    line-height: 59px;
-    display: block;
-  }
-  .footer ul li.news {
-    background: #0577d3 url("../img/i-news.png") no-repeat 18px center;
-  }
-  .footer ul li.news a {
-    padding: 0 12px 0 64px;
-  }
-  .footer ul li.support {
-    background: #0470c9 url("../img/i-support.png") no-repeat 12px center;
-  }
-  .footer ul li.support a {
-    padding: 0 12px 0 55px;
-  }
-  .footer ul li.letter {
-    background: #036cc2 url("../img/i-letter.png") no-repeat 12px center;
-  }
-  .footer ul li.letter a {
-    padding: 0 12px 0 58px;
-  }
-  .footer .social {
-    display: block;
-  }
-  .footer .social a.fb{
-    width: 36px;
-    height: 40px;
-    display: block;
-    float: left;
-    background: url("../img/i-fb.png") no-repeat center;
-    margin: 9px 7px 2px 15px;
-  }
-  .footer .social div.dlr{
-    width: 0;
-    height: 30px;
-    border-left: 1px solid #02549f;
-    border-right: 1px solid #187aca;
-    float: left;
-    margin-top: 14px;
-  }
-  .footer .social a.tw{
-    width: 36px;
-    height: 40px;
-    display: block;
-    float: left;
-    background: url("../img/i-tw.png") no-repeat center;
-    margin: 9px 0 0 9px;
-  }
-
-  .footer .social span.copy {
-    display: block;
-    font-size: 5px;
-    color: #6ebdfd;
-    width: 43px;
-    text-align: left;
-    line-height: 5px;
-    display: block;
-    float: left;
-    padding: 22px 0 0 11px;
-  }
+.footer ul {
+  display: none;
+}
+.footer .social {
+  display: inline;
+}
+.footer .social a.fb{
+  width: 79px;
+  height: 72px;
+  display: block;
+  position: absolute;
+  right: 133px;
+  bottom: 14px;
+  background: url("../img/ipad/i-fb.png") no-repeat center;
+}
+.footer .social div.dlr{
+  width: 0;
+  display: none;
+}
+.footer .social a.tw{
+  width: 79px;
+  height: 72px;
+  display: block;
+  position: absolute;
+  right: 34px;
+  bottom: 14px;
+  background: url("../img/ipad/i-tw.png") no-repeat center;
 }
 
-@media (orientation : landscape)
-    and (min-width: 492px) {
-
-@media (orientation : landscape)
-    and (min-width: 492px) {
-  .footer .social {
-    float: right;
-  }
-  .footer .social span.copy {
-    padding: 22px 15px 0 11px;
-  }
+.footer .social span.copy {
+  font-size: 11px;
+  color: #69b9fa;
+  line-height: 51px;
 }
 /* end footer */

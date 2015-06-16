@@ -95,8 +95,48 @@
 .middler .game-box p {
   font-size: 18px;
 }
-@media (orientation : landscape)
-    and (min-width: 568px) {
+@media (orientation : portrait)
+    and (max-width: 768px) {
+  .middler .game-box {
+    height: 285px;
+    width: 683px;
+    border-radius: 6px;
+    margin: 0 0 19px 25px;
+    padding: 6px 28px 6px 6px;
+    display: inline-block;
+  }
+  .middler .game-box .chip {
+    width: 286px;
+  }
+  .middler .game-box .chip  .img{
+    margin-top: 23px;
+    width: 100%;
+    height: 207px;
+  }
+  .middler .game-box .chip  .img-1{
+    background: url("../img/ipad/chips/1-r.png") no-repeat center;
+    background-size: 75%;
+  }
+  .middler .game-box .chip  .img-2{
+    background: url("../img/ipad/chips/2-r.png") no-repeat center;
+    background-size: 75%;
+  }
+  .middler .game-box .chip  .img-3{
+    background: url("../img/ipad/chips/3-r.png") no-repeat center;
+    margin-top: 0.75em;
+    background-size: 75%;
+  }
+  .middler .game-box .chip  .img-4{
+    background: url("../img/ipad/chips/4-r.png") no-repeat center;
+    background-size: 75%;
+  }
+  .middler .game-box h3 {
+    font-size: 38px;
+    line-height: 104px;
+  }
+  .middler .game-box p {
+    font-size: 28px;
+  }
 }
 .middler .game-box .ribbon-new {
   background: url("../img/ipad/ribbon-new.png") no-repeat center;
@@ -112,6 +152,10 @@
 .footer {
   height: 54px;
   text-align: center;
+  background: #0069be url("../img/ipad/footer-bg.png") no-repeat center;
+  background-image: url("../img/ipad/footer-bg.png"), -webkit-gradient(linear, left top, left bottom, from(#0069be), to(#0060ad)); /* Saf4+, Chrome */
+  background-image: url("../img/ipad/footer-bg.png"), -webkit-linear-gradient(top, #0069be, #0060ad); /* Chrome 10+, Saf5.1+ */
+  background-image: url("../img/ipad/footer-bg.png"),         linear-gradient(to bottom, #0069be, #0060ad); /* W3C */  
 }
 .footer ul {
   display: none;

@@ -7,9 +7,9 @@
 .header {
   height: 56px;
   background: #0062b1 url("../img/logo.png") no-repeat center;
-  background-image: url("../img/ipad/logo.png"), -webkit-gradient(linear, left top, left bottom, from(#0070ca), to(#0060ad)); /* Saf4+, Chrome */
-  background-image: url("../img/ipad/logo.png"), -webkit-linear-gradient(top, #0070ca, #0060ad); /* Chrome 10+, Saf5.1+ */
-  background-image: url("../img/ipad/logo.png"),         linear-gradient(to bottom, #0070ca, #0060ad); /* W3C */  
+  background-image: url("../img/logo.png"), -webkit-gradient(linear, left top, left bottom, from(#0070ca), to(#0060ad)); /* Saf4+, Chrome */
+  background-image: url("../img/logo.png"), -webkit-linear-gradient(top, #0070ca, #0060ad); /* Chrome 10+, Saf5.1+ */
+  background-image: url("../img/logo.png"),         linear-gradient(to bottom, #0070ca, #0060ad); /* W3C */  
 }
 .header .btn-back {
   background: url("../img/btn-blue.png") no-repeat center;
@@ -114,7 +114,7 @@
 /* footer */
 @media (orientation : portrait) {
   .footer {
-    height: 68px;
+    
   }
   .footer ul li {
     width: 66px;
@@ -136,44 +136,45 @@
     background: #036cc2 url("../img/i-letter.png") no-repeat center 8px;
   }
   .footer .social {
+    position: absolute;
     display: block;
+    width: 104px;
     height: 68px;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    font-size: 0;
+    
   }
   .footer .social a.fb{
+    display: inline-block;
     width: 36px;
     height: 40px;
-    display: block;
-    float: left;
     background: url("../img/i-fb.png") no-repeat center;
-    margin: 8px 7px 2px 15px;
+    padding: 5px 5px 4px 5px;
   }
   .footer .social div.dlr{
+    display: inline-block;
     width: 0;
     height: 30px;
     border-left: 1px solid #02549f;
     border-right: 1px solid #187aca;
-    float: left;
-    margin-top: 13px;
+    vertical-align: 10px;
   }
   .footer .social a.tw{
+    display: inline-block;
     width: 36px;
     height: 40px;
-    display: block;
-    float: left;
     background: url("../img/i-tw.png") no-repeat center;
-    margin: 7px 0 0 9px;
+    padding: 5px 5px 4px 5px;
   }
 
   .footer .social span.copy {
-    display: block;
+    display: inline-block;
     font-size: 5px;
     color: #6ebdfd;
-    width: 73px;
-    padding: 0 22px;
     text-align: center;
     line-height: 5px;
-    display: block;
-    float: left;
     margin-top: 2px;
   }
 }

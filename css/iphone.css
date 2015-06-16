@@ -211,6 +211,9 @@
   }
   .footer .social {
     display: block;
+    position: absolute;
+    top: 8px;
+    right: 8px;    
   }
   .footer .social a.fb{
     width: 36px;
@@ -221,12 +224,7 @@
     margin: 9px 7px 2px 15px;
   }
   .footer .social div.dlr{
-    width: 0;
-    height: 30px;
-    border-left: 1px solid #02549f;
-    border-right: 1px solid #187aca;
-    float: left;
-    margin-top: 14px;
+    display: none;
   }
   .footer .social a.tw{
     width: 36px;
@@ -265,7 +263,7 @@
 
 /******************************/
 /* Retina-specific stuff here */
-/******************************/
+ /******************************/
 @media (-webkit-min-device-pixel-ratio: 2) { 
   .header {
     background: #0062b1 url("../img/logo-r.png") no-repeat center;

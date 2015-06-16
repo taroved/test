@@ -192,3 +192,100 @@
   line-height: 51px;
 }
 /* end footer */
+
+
+
+/******************************/
+/* Retina-specific stuff here */
+/******************************/
+@media (-webkit-min-device-pixel-ratio: 2) {
+  /* header */
+  .header {
+    background: #0062b1 url("../img/ipad/logo-r.png") no-repeat center;
+    background-image: url("../img/ipad/logo-r.png"), -webkit-gradient(linear, left top, left bottom, from(#0070ca), to(#0060ad)); /* Saf4+, Chrome */
+    background-image: url("../img/ipad/logo-r.png"), -webkit-linear-gradient(top, #0070ca, #0060ad); /* Chrome 10+, Saf5.1+ */
+    background-image: url("../img/ipad/logo-r.png"),         linear-gradient(to bottom, #0070ca, #0060ad); /* W3C */  
+    background-size: contain;
+  }
+  .header .btn-back {
+    background: url("../img/ipad/btn-blue-r.png") no-repeat center;
+    background-size: 100px 43px;
+  }
+  .header ul li.games {
+    background: url("../img/ipad/i-games-r.png") no-repeat center 8px;
+    background-size: 48px 51px;
+  }
+  .header ul li.news {
+    background: url("../img/ipad/i-news-r.png") no-repeat center 8px;
+    background-size: 48px 51px;
+  }
+  .header ul li.support {
+    background: url("../img/ipad/i-support-r.png") no-repeat center 8px;
+    background-size: 48px 51px;
+  }
+  .header ul li.letter {
+    background: url("../img/ipad/i-letter-r.png") no-repeat center 8px;
+    background-size: 48px 51px;
+  }
+  /* end header */
+
+  /* middler */
+  .middler .game-box .chip  .img-1{
+    background: url("../img/ipad/chips/1-r.png") no-repeat center;
+    background-size: 141px 135px;
+  }
+  .middler .game-box .chip  .img-2{
+    background: url("../img/ipad/chips/2-r.png") no-repeat center;
+    background-size: 148px 141px;
+  }
+  .middler .game-box .chip  .img-3{
+    background: url("../img/ipad/chips/3-r.png") no-repeat center;
+    background-size: 145px 112px;
+  }
+  .middler .game-box .chip  .img-4{
+    background: url("../img/ipad/chips/4-r.png") no-repeat center;
+    background-size: 146px 93px;
+  }
+  @media (orientation : portrait)
+      and (max-width: 768px) {
+    .middler .game-box .chip  .img-1{
+      background: url("../img/ipad/chips/1-r.png") no-repeat center;
+      background-size: 216px 207px;
+    }
+    .middler .game-box .chip  .img-2{
+      background: url("../img/ipad/chips/2-r.png") no-repeat center;
+      background-size: 226px 216px;
+    }
+    .middler .game-box .chip  .img-3{
+      background: url("../img/ipad/chips/3-r.png") no-repeat center;
+      background-size: 222px 171px;
+    }
+    .middler .game-box .chip  .img-4{
+      background: url("../img/ipad/chips/4-r.png") no-repeat center;
+      background-size: 223px 142px;
+    }
+  }
+  .middler .game-box .ribbon-new {
+    background: url("../img/ipad/ribbon-new-r.png") no-repeat center;
+    background-size: 57px 58px;
+  }
+  /* end middler */
+
+  /* footer */
+  .footer {
+    background: #0069be url("../img/ipad/footer-bg-r.png") no-repeat center;
+    background-image: url("../img/ipad/footer-bg-r.png"), -webkit-gradient(linear, left top, left bottom, from(#0069be), to(#0060ad)); /* Saf4+, Chrome */
+    background-image: url("../img/ipad/footer-bg-r.png"), -webkit-linear-gradient(top, #0069be, #0060ad); /* Chrome 10+, Saf5.1+ */
+    background-image: url("../img/ipad/footer-bg-r.png"),         linear-gradient(to bottom, #0069be, #0060ad); /* W3C */  
+    background-size: contain;
+  }
+  .footer .social a.fb{
+    background: url("../img/ipad/i-fb-r.png") no-repeat center;
+    background-size: 79px 72px;
+  }
+  .footer .social a.tw{
+    background: url("../img/ipad/i-tw-r.png") no-repeat center;
+    background-size: 79px 72px;
+  }
+  /* end footer */
+}

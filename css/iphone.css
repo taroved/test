@@ -260,3 +260,94 @@
   }
 }
 /* end footer */
+
+
+
+/******************************/
+/* Retina-specific stuff here */
+/******************************/
+@media (-webkit-min-device-pixel-ratio: 2) { 
+  .header {
+    background: #0062b1 url("../img/logo-r.png") no-repeat center;
+    background-image: url("../img/logo-r.png"), -webkit-gradient(linear, left top, left bottom, from(#0070ca), to(#0060ad)); /* Saf4+, Chrome */
+    background-image: url("../img/logo-r.png"), -webkit-linear-gradient(top, #0070ca, #0060ad); /* Chrome 10+, Saf5.1+ */
+    background-image: url("../img/logo-r.png"),         linear-gradient(to bottom, #0070ca, #0060ad); /* W3C */  
+    background-size: 219px 56px;
+  }
+  .header .btn-back {
+    background: url("../img/btn-blue-r.png") no-repeat center;
+    background-size: 59px 26px
+  }
+  /* end header */
+
+  /* middler */
+  .middler .game-box .chip .img-1{
+    background: url("../img/chips/r1.png") no-repeat center;
+    background-size: 94px 87px;
+  }
+  .middler .game-box .chip .img-2{
+    background: url("../img/chips/r2.png") no-repeat center;
+    background-size: 91px 89px;
+  }
+  .middler .game-box .chip .img-3{
+    background: url("../img/chips/r3.png") no-repeat center;
+    background-size: 92px 72px;
+  }
+  .middler .game-box .chip .img-4{
+    background: url("../img/chips/r4.png") no-repeat center;
+    background-size: 92px 70px;
+  }
+
+  .middler .game-box .ribbon-new {
+    background: url("../img/ribbon-new-r.png") no-repeat center;
+    background-size: 35px 35px;
+  }
+  /* end middler */
+
+  /* footer */
+  @media (orientation : portrait) {
+    .footer ul li.news {
+      background: #0577d3 url("../img/i-news-r.png") no-repeat center 8px;
+      background-size: 37px 40px;
+    }
+    .footer ul li.support {
+      background: #0470c9 url("../img/i-support-r.png") no-repeat center 8px;
+      background-size: 37px 40px;
+    }
+    .footer ul li.letter {
+      background: #036cc2 url("../img/i-letter-r.png") no-repeat center 8px;
+      background-size: 37px 40px;
+    }
+    .footer .social a.fb{
+      background: url("../img/i-fb-r.png") no-repeat center;
+      background-size: 37px 40px;
+    }
+    .footer .social a.tw{
+      background: url("../img/i-tw-r.png") no-repeat center;
+      background-size: 37px 40px;
+    }
+  }
+  @media (orientation : landscape) {
+    .footer ul li.news {
+      background: #0577d3 url("../img/i-news-r.png") no-repeat 18px center;
+      background-size: 37px 40px;
+    }
+    .footer ul li.support {
+      background: #0470c9 url("../img/i-support-r.png") no-repeat 12px center;
+      background-size: 37px 40px;
+    }
+    .footer ul li.letter {
+      background: #036cc2 url("../img/i-letter-r.png") no-repeat 12px center;
+      background-size: 37px 40px;
+    }
+    .footer .social a.fb{
+      background: url("../img/i-fb-r.png") no-repeat center;
+      background-size: 37px 40px;
+    }
+    .footer .social a.tw{
+      background: url("../img/i-tw-r.png") no-repeat center;
+      background-size: 37px 40px;
+    }
+  }
+  /* end footer */
+}

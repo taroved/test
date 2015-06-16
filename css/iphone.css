@@ -138,7 +138,7 @@
   .footer .social {
     position: absolute;
     display: block;
-    width: 104px;
+    width: 106px;
     height: 68px;
     top: 10px;
     right: 10px;
@@ -151,7 +151,7 @@
     width: 36px;
     height: 40px;
     background: url("../img/i-fb.png") no-repeat center;
-    padding: 5px 5px 4px 5px;
+    margin: 5px 7px 4px 5px;
   }
   .footer .social div.dlr{
     display: inline-block;
@@ -166,7 +166,7 @@
     width: 36px;
     height: 40px;
     background: url("../img/i-tw.png") no-repeat center;
-    padding: 5px 5px 4px 5px;
+    margin: 5px 5px 4px 7px;
   }
 
   .footer .social span.copy {

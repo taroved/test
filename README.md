@@ -1,3 +1,3 @@
 # IPad, Iphone html mockup
 
-## (Open on chrome IPod device mode)
+## (Open on chrome IPad/IPhone device mode)
